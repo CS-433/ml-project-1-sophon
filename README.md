@@ -1,1 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/MqChnODK)
+# REPOSITORY STRUCTURE
+
+├───.ipynb_checkpoints
+├───.jupyter
+│   └───desktop-workspaces
+├───dataset
+└───_pycache_
+
+The datset is stored in the dataset folder in the files x_train, x_test, y_train...
+
+# HOW TO RUN OUR PROJECT
+To run our projects, you simply need to go through the notebook run.ipynb cells in the chronological order. The implementations are in the implementations.py file. We use some functions from the helpers.py provided for the labs. The submission-logistic_regerssion.csv file contains the last prediction made by the model
