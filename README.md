@@ -1,10 +1,22 @@
 # REPOSITORY STRUCTURE
 
-├───.ipynb_checkpoints
-├───.jupyter
-│   └───desktop-workspaces
-├───dataset
-└───_pycache_
+# Repository Structure
+
+```plaintext
+├─── .ipynb_checkpoints/
+├─── .jupyter/
+│    └─── desktop-workspaces/
+├─── dataset/
+│    ├─── x_train.csv
+│    ├─── x_test.csv
+│    ├─── y_train.csv
+│    └─── y_test.csv
+├─── __pycache__/
+├─── implementations.py
+├─── helpers.py
+├─── run.ipynb
+└─── submission-logistic_regression.csv
+```
 
 The datset is stored in the dataset folder in the files x_train, x_test, y_train...
 
